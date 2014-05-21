@@ -1,4 +1,4 @@
-name=toggleGuides
+name=toggleIndentMarkers
 installPath=~/.config/geany/plugins/
 
 .PHONY:all clean build install uninstall
