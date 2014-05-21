@@ -1,4 +1,4 @@
-Toggle Guides
-=============
+Toggle Indent Markers
+=====================
 
-Geany plugin to toggle indentation guides and white space visibility
+Geany plugin to toggle indentation and white space markers' visibility.

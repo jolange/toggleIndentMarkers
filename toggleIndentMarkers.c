@@ -8,7 +8,7 @@ GeanyFunctions* geany_functions;
 PLUGIN_VERSION_CHECK(211) // TODO check
 PLUGIN_SET_INFO(
    "Toggle Indent Markers",
-   "Toggles indentation and white space markers visibility, "
+   "Toggles indentation and white space markers' visibility, "
    "(TODO:) line endings.",
    "0.1", "Johannes Lange");
 
