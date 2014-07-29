@@ -3,11 +3,11 @@ installPath=~/.config/geany/plugins/
 
 .PHONY:all clean build install uninstall
 
-all:install
+all:build
 
 build:
 	gcc -c $(name).c -fPIC `pkg-config --cflags geany`
-	gcc $(name).o -o$(name).so -shared `pkg-config --libs geany`
+	gcc $(name).o -o $(name).so -shared `pkg-config --libs geany`
 
 clean:
 	rm $(name).*o
